@@ -11,6 +11,8 @@ import java.util.List;
 public class RequiredFilesConfig {
     protected final List<String> requiredFiles = new LinkedList<>();
 
+    private RequiredFilesConfig(){}
+
     public List<String> getRequiredFiles(){
         return this.requiredFiles;
     }
